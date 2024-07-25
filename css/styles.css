@@ -27,6 +27,8 @@ html {
     font-size: 14px;
     letter-spacing: 1.25px;
     text-transform: uppercase;
+    position: sticky;
+    top: 0;
     font-weight: 400;
     padding: 25px;
 }
@@ -163,12 +165,7 @@ html {
     margin-bottom: 10px;
 }
 
-.section-col button a {
-    text-decoration: none;
-    color: white;
-}
-
-.section-row button a {
+.section-col button a, .section-row button a {
     text-decoration: none;
     color: white;
 }
@@ -221,7 +218,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-transform: uppercase;
+    text-align: center;
     letter-spacing: 1.25px;
     align-items: center;
 }
@@ -253,5 +250,19 @@ html {
     .banner-intro p {
         margin-left: 10%;
         margin-right: 10%;
+    }
+    .landing-page-footer {
+        flex-direction: column;
+    }
+    .landing-page-footer .section-col {
+        width: 100%;
+    }
+    .landing-page-footer .section-col p{
+        font-size: 12px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .landing-page-footer .section-col a {
+        font-size: 12px;
     }
 }
