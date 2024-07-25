@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.mobile-display {
+    display: none;
+}
+
 .landing-page-nav {
     display: flex;
     flex-direction: row;
@@ -67,7 +71,7 @@ html {
 }
 
 .banner {
-    height: 150vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -76,6 +80,7 @@ html {
     background-image: url('../images/Profile\ Pic\ \(June\ 2024\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .banner .banner-intro {
@@ -102,8 +107,14 @@ html {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+
+
+.page-section h1 {
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
 }
 
 .section-row {
@@ -113,14 +124,27 @@ html {
     align-items: center;
 }
 
-.section-col {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.section-row p {
     align-items: center;
 }
 
-.section-col button {
+.section-row img {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.section-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.section-col button, .section-row button {
     margin-left: 10px;
     margin-right: 10px;
     background: transparent;
@@ -134,8 +158,35 @@ html {
     cursor: pointer;
 }
 
+.section-row button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .section-col button a {
     text-decoration: none;
+    color: white;
+}
+
+.section-row button a {
+    text-decoration: none;
+    color: white;
+}
+
+#half-section {
+    width: 50%;
+}
+
+#half-section p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.page-section#about {
+    background-image: url('../images/personal-photography-2.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
     color: white;
 }
 
@@ -161,4 +212,46 @@ html {
     border-top-right-radius: 20px;
     height: 250px;
     width: 350px;
+}
+
+.landing-page-footer {
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    align-items: center;
+}
+
+#footer-link {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+#footer-link:hover {
+    background: white;
+    color: black;
+    transition: .5s;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .mobile-display {
+        display: block;
+    }
+    .web-display {
+        display: none;
+    }
+    .banner-intro p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
