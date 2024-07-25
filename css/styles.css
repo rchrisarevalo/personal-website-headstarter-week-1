@@ -93,7 +93,7 @@ html {
 }
 
 .banner .banner-intro p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .banner .banner-intro h3 {
@@ -102,7 +102,7 @@ html {
 
 .banner #banner-intro-paragraph {
     text-transform: none;
-    letter-spacing: 1.25px;
+    letter-spacing: 0px;
     font-weight: 300;
 }
 
@@ -115,8 +115,7 @@ html {
 }
 
 .page-section h1 {
-    text-transform: uppercase;
-    letter-spacing: 1.25px;
+    font-size: 40px;
 }
 
 .section-row {
@@ -128,8 +127,8 @@ html {
 
 .section-row p {
     align-items: center;
-    letter-spacing: 1.25px;
     font-weight: 300;
+    font-size: 17px;
 }
 
 .section-row img {
@@ -191,10 +190,19 @@ html {
     color: white;
 }
 
+.page-section#education {
+    background-image: url('../images/waterfall-wallpaper.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
 .display {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 3px black;
+    background: rgb(27, 27, 27);
     height: 500px;
     width: 350px;
     border-radius: 20px;
@@ -208,7 +216,6 @@ html {
 }
 
 .display p {
-    letter-spacing: 1.25px;
     font-weight: 300;
 }
 
@@ -222,6 +229,14 @@ html {
     border-top-right-radius: 20px;
     height: 250px;
     width: 350px;
+}
+
+.page-section#projects {
+    background-image: url('../images/coding-wallpaper.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
 .landing-page-footer {
