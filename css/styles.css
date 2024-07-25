@@ -259,10 +259,10 @@ html {
     }
     .landing-page-footer .section-col p{
         font-size: 12px;
-        margin-left: 5%;
-        margin-right: 5%;
     }
     .landing-page-footer .section-col a {
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-size: 12px;
     }
 }
