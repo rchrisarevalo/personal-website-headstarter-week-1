@@ -220,7 +220,7 @@ html {
     background: rgb(27, 27, 27);
     height: 500px;
     width: 350px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -235,13 +235,13 @@ html {
 }
 
 .display h3 {
-    letter-spacing: 1.25px;
+    letter-spacing: 0px;
 }
 
 .display img {
     object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     height: 250px;
     width: 350px;
 }
@@ -302,6 +302,10 @@ html {
         margin-left: 10%;
         margin-right: 10%;
     }
+    .display {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
     .landing-page-footer {
         flex-direction: column;
     }
@@ -309,7 +313,8 @@ html {
         width: 100%;
     }
     .landing-page-footer .section-col p{
-        font-size: 12px;
+        font-size: 13px;
+        margin: 0;
     }
     .landing-page-footer .section-col a {
         margin-top: 10px;
