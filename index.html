@@ -2,37 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="author" content="Ruben Arevalo">
+        <meta name="description" content="Software engineering fellow and aspiring software developer">
+        <meta name="keywords" content="Ruben Arevalo, Ruben C. Arevalo, Software Developer, SWE Fellow, Ruben Arevalo SWE Developer">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styles.css" />
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
         <!-- Google tag (gtag.js) -->
-        <script async
-            src="https://www.googletagmanager.com/gtag/js?id=G-PSJ62R2GS1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSJ62R2GS1"></script>
         <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-    gtag('config', 'G-PSJ62R2GS1');
-    </script>
-        <title>Ruben C. Arevalo</title>
+            gtag('config', 'G-PSJ62R2GS1');
+        </script>
+        <title>Ruben Arevalo</title>
     </head>
     <body>
-        <div class="web-display">
-            <nav class="landing-page-nav">
-                <ul>
-                    <li><h2><a href="./index.html">Ruben Arevalo</a></h2></li>
-                </ul>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="landing-page-nav">
+            <h2><a href="./index.html">Ruben Arevalo</a></h2>
+            <ul id="nav-menu">
+                <span id="mobile-nav-menu-close"><i class="fa-solid fa-close" onclick="{toggleNav()}"></i></span>
+                <span id="menu-link"><li><a href="#home" onclick="{toggleNav()}">Home</a></li></span>
+                <span id="menu-link"><li><a href="#about" onclick="{toggleNav()}">About</a></li></span>
+                <span id="menu-link"><li><a href="#education" onclick="{toggleNav()}">Education</a></li></span>
+                <span id="menu-link"><li><a href="#experience" onclick="{toggleNav()}">Experience</a></li></span>
+                <span id="menu-link"><li><a href="#projects" onclick="{toggleNav()}">Projects</a></li></span>
+            </ul>
+            <div class="menu-icon">
+                <span id="mobile-nav-menu-open"><i class="fa-solid fa-bars" onclick="{toggleNav()}"></i></span>
+            </div>
+        </nav>
 
         <div class="container">
             <section class="banner" id="home">
@@ -55,12 +57,14 @@
                         <div class="section-col">
                             <button><a href="./docs/Ruben Christopher Arevalo - Resume (Updated July 2024).pdf">View Resume</a></button>
                             <button><a href="#about">About Me</a></button>
+                            <button><a href="mailto:ruben.c.arevalo@gmail.com">Contact Me</a></button>
                         </div>
                     </div>
                     <div class="mobile-display">
                         <div class="section-row">
                             <button><a href="./docs/Ruben Christopher Arevalo - Resume (Updated July 2024).pdf">View Resume</a></button>
                             <button><a href="#about">About Me</a></button>
+                            <button><a href="mailto:ruben.c.arevalo@gmail.com">Contact Me</a></button>
                         </div>
                     </div>
                 </div>
@@ -77,8 +81,7 @@
                                 My name is Ruben Arevalo, and I am currently
                                 a software engineer fellow at Headstarter,
                                 and an aspiring software developer from
-                                McAllen,
-                                Texas.
+                                McAllen, Texas.
                             </p>
                             <br>
                             <p>
@@ -87,9 +90,22 @@
                                 back in 2017,
                                 I have learned a lot of lessons along the
                                 way, and have taken
-                                a keen interest in software development. I
-                                strive to
-                                improve and learn new lessons every day, as
+                                a keen interest in software development.
+                            </p>
+                            <br>
+                            <p>
+                                More recently, I have also taken an interest in
+                                integrating generative
+                                AI into products to help improve and
+                                streamline processes, such as, for example,
+                                determining which clothes fit best for you
+                                for a date when using a dating app, or 
+                                determining how many calories should you
+                                consume a day when using a calorie tracker.
+                            </p>
+                            <br>
+                            <p>
+                                I strive to improve and learn new lessons every day, as
                                 well as continously honing
                                 my craft in programming so that I can apply
                                 what I learned into finding solutions for
@@ -109,26 +125,16 @@
                         </div>
                         <div class="section-row" id="half-section">
                             <div class="section-col">
-                                <img src="./images/me-coding-express.jpg" />
-                                <img src="./images/snow-day-hangout.jpg" />
+                                <img src="./images/me-coding-express.jpg" alt="Ruben Arevalo Coding" />
+                                <img src="./images/snow-day-hangout.jpg" alt="Ruben Arevalo Snow Day 2017" />
                             </div>
                             <div class="section-col">
-                                <img
-                                    src="./images/personal-photography-4.jpg" />
+                                <img src="./images/personal-photography-3.jpg" alt="Ruben Arevalo Photography 1" />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="mobile-display">
-                    <div id="image-slide">
-                        <img src="./images/me-coding-express.jpg" />
-                        <br>
-                        <img src="./images/snow-day-hangout.jpg" />
-                        <br>
-                        <img src="./images/personal-photography-4.jpg" />
-                    </div>
-                    <br>
-                    <br>
                     <div class="section-row">
                         <p>
                             My name is Ruben Arevalo, and I am currently
@@ -144,9 +150,11 @@
                             back in 2017,
                             I have learned a lot of lessons along the
                             way, and have taken
-                            a keen interest in software development. I
-                            strive to
-                            improve and learn new lessons every day, as
+                            a keen interest in software development.
+                        </p>
+                        <br>
+                        <p>
+                            I strive to improve and learn new lessons every day, as
                             well as continously honing
                             my craft in programming so that I can apply
                             what I learned into finding solutions for
@@ -164,6 +172,15 @@
                             I have free time.
                         </p>
                     </div>
+                    <br>
+                    <br>
+                    <div id="image-slide">
+                        <img src="./images/me-coding-express.jpg" alt="Ruben Arevalo Coding" />
+                        <br>
+                        <img src="./images/snow-day-hangout.jpg" alt="Ruben Arevalo Snow Day 2017" />
+                        <br>
+                        <img src="./images/personal-photography-3.jpg" alt="Ruben Arevalo Photography 1" />
+                    </div>
                 </div>
             </section>
             
@@ -174,7 +191,7 @@
                 <div class="web-display">
                     <div class="section-col">
                         <figure class="display">
-                            <img src="./images/UTRGV Grad Photo May 2023.jpg" />
+                            <img src="./images/UTRGV Grad Photo May 2023.jpg" alt="Ruben Arevalo Graduation May 2023" />
                             <br>
                             <h3>University of Texas Rio Grande Valley</h3>
                             <i><b>Edinburg, Texas</b></i>
@@ -189,7 +206,7 @@
                             </p>
                         </figure>
                         <figure class="display">
-                            <img src="./images/AECHS Grad Photo May 2019.jpg" />
+                            <img src="./images/AECHS Grad Photo May 2019.jpg" alt="Ruben Arevalo Graduation AECHS May 2019" />
                             <br>
                             <h3>Achieve Early College High School</h3>
                             <i><b>McAllen, Texas</b></i>
@@ -202,7 +219,7 @@
                             </p>
                         </figure>
                         <figure class="display">
-                            <img src="./images/STC Grad Photo May 2019.jpg" />
+                            <img src="./images/STC Grad Photo May 2019.jpg" alt="Ruben Arevalo Graduation STC May 2019" />
                             <br>
                             <h3>South Texas College</h3>
                             <i><b>McAllen, Texas</b></i>
@@ -218,7 +235,7 @@
                 </div>
                 <div class="mobile-display">
                     <figure class="display">
-                        <img src="./images/UTRGV Grad Photo May 2023.jpg" />
+                        <img src="./images/UTRGV Grad Photo May 2023.jpg" alt="Ruben Arevalo Graduation May 2023" />
                         <br>
                         <h3>University of Texas Rio Grande Valley</h3>
                         <i><b>Edinburg, Texas</b></i>
@@ -233,7 +250,7 @@
                         </p>
                     </figure>
                     <figure class="display">
-                        <img src="./images/AECHS Grad Photo May 2019.jpg" />
+                        <img src="./images/AECHS Grad Photo May 2019.jpg" alt="Ruben Arevalo Graduation AECHS May 2019" />
                         <br>
                         <h3>Achieve Early College High School</h3>
                         <i><b>McAllen, Texas</b></i>
@@ -246,7 +263,7 @@
                         </p>
                     </figure>
                     <figure class="display">
-                        <img src="./images/STC Grad Photo May 2019.jpg" />
+                        <img src="./images/STC Grad Photo May 2019.jpg" alt="Ruben Arevalo Graduation STC May 2019" />
                         <br>
                         <h3>South Texas College</h3>
                         <i><b>McAllen, Texas</b></i>
@@ -260,6 +277,72 @@
                     </figure>
                 </div>
             </section>
+
+            <section class="page-section" id="experience">
+                <h1>Experience</h1>
+                <br>
+                <br>
+                <div class="section-row" id="experience-section">
+                    <div class="section-col">
+                        <div class="section-row">
+                            <h3>Software Engineer Fellow</h3>
+                            <i>Headstarter</i>
+                            <i>July 2024 - Present</i>
+                            <br>
+                            <p>
+                                I am currently part of the software engineer
+                                fellowship program led by Headstarter, where
+                                I will build 5 AI-based projects and a final
+                                project that will bring in 1000+ users--either
+                                through sign ups or a waitlist--or generate
+                                $1000 in revenue.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="section-col">
+                        <div class="section-row">
+                            <h3>Independent Software Developer</h3>
+                            <i>Self-employed</i>
+                            <i>May 2023 - Present</i>
+                            <br>
+                            <p>
+                                In addition to the fellowship, and despite
+                                not having any clients yet, I am currently
+                                working on a dating web app and a restaurant
+                                website for a potential client who could be
+                                interested in having one for their business
+                                to attract more customers. Furthermore, I continue
+                                to hone my programming skills and apply
+                                best software engineering practices to the
+                                projects that I am building, such as Agile
+                                development and test-driven development (TDD),
+                                to ensure a high-quality product.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="section-col">
+                        <div class="section-row">
+                            <h3>Retail Salesperson</h3>
+                            <i>Walgreens</i>
+                            <i>December 2022 - March 2023</i>
+                            <br>
+                            <p>
+                                I worked with, on average, 20 to 25 customers a week
+                                and helped answer any questions or related concerns
+                                about specific product or piece of merchandise. I also
+                                restocked sold out products to maintain inventory levels,
+                                as well as display products in the promotional section
+                                to help drive sales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="page-section" id="projects">
                 <h1>Projects</h1>
                 <br>
@@ -267,7 +350,7 @@
                 <div class="web-display">
                     <div class="section-col">
                         <figure class="display" id="projects-display">
-                            <img src="./images/dating-web-app-sample.png" />
+                            <img src="./images/dating-web-app-sample.png" alt="Ruben Arevalo Dating Web App Sample" />
                             <br>
                             <h3>Dating Web App</h3>
                             <p>Built with:<b> React, CSS, TypeScript, FastAPI, Express.js, PostgreSQL</b></p>
@@ -281,7 +364,7 @@
                             </p>
                         </figure>
                         <figure class="display" id="projects-display">
-                            <img src="./images/personal-website-react-sample.png" />
+                            <img src="./images/personal-website-react-sample.png" alt="Ruben Arevalo React Site Sample" />
                             <br>
                             <h3><a href="https://rchrisarevalo-dev.onrender.com/" target="_blank">Personal Website (React)</a></h3>
                             <p>Built with:<b> React, CSS, React Bootstrap, FastAPI</b></p>
@@ -295,10 +378,10 @@
                             </p>
                         </figure>
                         <figure class="display" id="projects-display">
-                            <img src="./images/cv-website-sample.jpg" />
+                            <img src="./images/cv-website-sample.jpg" alt="Ruben Arevalo CV Website Sample" />
                             <br>
                             <h3><a href="https://rchrisarevalo.github.io/cv-website" target="_blank">CV Website</a></h3>
-                            <i>Built with: <b>HTML & CSS</b></i>
+                            <p>Built with: <b>HTML, CSS</b></p>
                             <i>June 2021 - July 2021</i>
                             <br>
                             <p>
@@ -312,7 +395,7 @@
                 </div>
                 <div class="mobile-display">
                     <figure class="display" id="projects-display">
-                        <img src="./images/dating-web-app-sample.png" />
+                        <img src="./images/dating-web-app-sample.png" alt="Ruben Arevalo Dating Web App Sample" />
                         <br>
                         <h3>Dating Web App</h3>
                         <p>Built with:<b> React, CSS, TypeScript, FastAPI, Express.js, PostgreSQL</b></p>
@@ -326,7 +409,7 @@
                         </p>
                     </figure>
                     <figure class="display" id="projects-display">
-                        <img src="./images/personal-website-react-sample.png" />
+                        <img src="./images/personal-website-react-sample.png" alt="Ruben Arevalo React Site Sample" />
                         <br>
                         <h3><a href="https://rchrisarevalo-dev.onrender.com/" target="_blank">Personal Website (React)</a></h3>
                         <p>Built with:<b> React, CSS, React Bootstrap, FastAPI</b></p>
@@ -340,10 +423,10 @@
                         </p>
                     </figure>
                     <figure class="display" id="projects-display">
-                        <img src="./images/cv-website-sample.jpg" />
+                        <img src="./images/cv-website-sample.jpg" alt="Ruben Arevalo CV Website Sample" />
                         <br>
                         <h3><a href="https://rchrisarevalo.github.io/cv-website" target="_blank">CV Website</a></h3>
-                        <i>Built with: <b>HTML & CSS</b></i>
+                        <p>Built with: <b>HTML, CSS</b></p>
                         <i>June 2021 - July 2021</i>
                         <br>
                         <p>
@@ -367,5 +450,8 @@
                 </section>
             </footer>
         </div>
+
+        <!-- JS Script to toggle animation for mobile navigation bar. -->
+        <script src="js/nav.js"></script>
     </body>
 </html>
