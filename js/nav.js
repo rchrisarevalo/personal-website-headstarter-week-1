@@ -1,6 +1,5 @@
 const toggleNav = () => {
     const menu = document.getElementById("nav-menu")
-    const menuLink = document.getElementById("menu-link")
     const closeBtn = document.getElementById("mobile-nav-menu-close")
     const openBtn = document.getElementById("mobile-nav-menu-open")
 
