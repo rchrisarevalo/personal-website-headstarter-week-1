@@ -94,7 +94,7 @@ html {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-image: url('../images/Profile\ Pic\ \(June\ 2024\).jpg');
+    background-image: url('../images/Profile\ Pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -263,7 +263,7 @@ html {
 }
 
 .page-section#experience {
-    background-image: url('../images/personal-photography-4.jpg');
+    background-image: url('../images/personal-photography-4-darker.jpg');
     background-repeat: none;
     background-position: center;
     background-size: cover;
