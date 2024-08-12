@@ -108,7 +108,7 @@ html {
 }
 
 .banner .banner-intro p {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .banner .banner-intro h3 {
@@ -143,7 +143,7 @@ html {
 .section-row p {
     align-items: center;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .section-row img {
@@ -169,11 +169,11 @@ html {
     border: none;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     padding: 7px 30px;
     border-radius: 10px;
     border: 1px solid white;
-    letter-spacing: 1.25px;
+    letter-spacing: 0.5px;
     font-weight: 500;
     cursor: pointer;
 }
@@ -234,7 +234,7 @@ html {
     flex-direction: column;
     box-shadow: 0 0 3px black;
     background: rgb(27, 27, 27);
-    height: 500px;
+    height: 575px;
     width: 350px;
     border-radius: 5px;
     margin-left: 10px;
@@ -244,13 +244,16 @@ html {
 .display p, .display h3, .display i {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 19px;
 }
 
 .display p {
+    font-size: 19px;
     font-weight: 300;
 }
 
 .display h3 {
+    font-size: 23px;
     letter-spacing: 0px;
 }
 
@@ -286,7 +289,7 @@ html {
 }
 
 #projects-display {
-    height: 550px;
+    height: 600px;
 }
 
 #projects-display a {
