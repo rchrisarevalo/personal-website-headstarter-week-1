@@ -94,10 +94,6 @@ html {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-image: url('../images/Profile\ Pic.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .banner .banner-intro {
@@ -105,6 +101,15 @@ html {
     letter-spacing: 1.25px;
     font-size: 14px;
     color: white;
+}
+
+.banner .banner-intro img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    object-fit: contain;
+    border-radius: 100%;
 }
 
 .banner .banner-intro p {
@@ -286,6 +291,10 @@ html {
 #experience .section-row p {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+#experience .section-row i {
+    font-size: 20px;
 }
 
 #projects-display {
