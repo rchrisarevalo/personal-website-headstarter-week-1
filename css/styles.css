@@ -297,6 +297,10 @@ html {
     font-size: 20px;
 }
 
+#experience .section-row h2 {
+    text-align: center;
+}
+
 #projects-display {
     height: 600px;
 }
